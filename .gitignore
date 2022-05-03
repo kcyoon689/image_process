@@ -1,0 +1,12 @@
+1foreground/
+1foreground_cropped/
+2background/
+2background_cropped/
+3masks_class/
+4images/
+4images_bg/
+5input/
+5output/
+11depth_image/
+12point_cloud/
+*.npy
