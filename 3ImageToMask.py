@@ -56,4 +56,3 @@ for class_id, _ in enumerate(category_names_list): # class_id(step) = 0, 1, 2 (t
     os.makedirs(head, exist_ok=True)
     # maskPath = maskPath.replace("png", "bmp")
     cv2.imwrite(maskPath, mask_classId)
-

@@ -12,7 +12,7 @@ class point_cloud_generator():
         self.rgb_file = rgb_file
         self.depth_file = depth_file
         self.pc_file = pc_file
-        self.focal_length = focal_length * 100
+        self.focal_length = focal_length * 80
         self.scaleMin = scaleMin
         self.scaleMax = scaleMax
         self.rgb = Image.open(rgb_file)
